@@ -1,6 +1,6 @@
 <?php
 
-namespace tobypayneyt/announcements;
+namespace tobypayneyt\announcements;
 
 use DateTime;
 use pocketmine\command\Command;
