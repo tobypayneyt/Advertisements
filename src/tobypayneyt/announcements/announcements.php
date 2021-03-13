@@ -31,7 +31,7 @@ class werbung extends PluginBase implements Listener
         if ($config->get("pay-money-to-publish") == "true") {
             $economyapi = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI");
             if ($economyapi == null) {
-                $this->getLogger()->error("You need EconomyAPI to use this plugin!");
+                $this->getLogger()->error("EconomyAPI is required, and was not found.");
                 $this->getServer()->getPluginManager()->disablePlugin($this);
             }
         }
